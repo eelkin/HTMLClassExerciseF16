@@ -1,0 +1,52 @@
+body {
+    font-family: Optima, Geneva;
+}
+
+h1{
+    font-size: 250%;
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px #000000;
+}
+
+h2{
+    font-size: 200%
+}
+
+h2::first-letter{
+    font-size: 200%;
+}
+
+h3{
+    font-size: 150%;
+}
+
+h4{
+    font-size: 125%;
+}
+
+img{
+    float: left;
+}
+
+header{
+    text-indent: 50px
+}
+
+a:link{
+    font-weight: bold;
+    color: orange;
+    
+}
+
+a:hover{
+    color: green;
+}
+
+li{
+  padding: 5px;  
+}
+
+footer{
+    font-size: 75%;
+}
