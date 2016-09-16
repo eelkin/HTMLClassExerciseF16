@@ -1,5 +1,17 @@
+html{
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+
 body {
     font-family: Optima, Geneva;
+    width: 800px;
+    margin: auto;
+    background: white;
+    border: 2px;
+    border-style: solid;
+    border-color: #000000;
+    box-shadow: 5px 5px 5px #000000;
 }
 
 h1{
@@ -30,7 +42,9 @@ img{
 }
 
 header{
-    text-indent: 50px
+    text-indent: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
 a:link{
