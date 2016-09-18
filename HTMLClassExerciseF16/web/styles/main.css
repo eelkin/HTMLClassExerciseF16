@@ -8,25 +8,9 @@ body {
     width: 800px;
     margin: auto;
     background: white;
-    border: 2px;
     border-style: solid;
-    border-color: #000000;
-    box-shadow: 5px 5px 5px #000000;
-}
-
-h1{
-    font-size: 250%;
-    color: orange;
-    font-style: italic;
-    text-shadow: 2px 2px #000000;
-}
-
-h2{
-    font-size: 200%
-}
-
-h2::first-letter{
-    font-size: 200%;
+    border-color: black;
+    box-shadow: 5px 5px 5px black;
 }
 
 h3{
@@ -39,12 +23,32 @@ h4{
 
 img{
     float: left;
+    margin: 20px;
+}
+
+#headTitle{
+    font-size: 250%;
 }
 
 header{
+    margin: auto;
+    padding: auto;
     text-indent: 50px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+    background: linear-gradient(45deg, white, orange 75%, black), orange;
+}
+
+#welcome{
+    font-size: 200%
+}
+
+#welcome::first-letter{
+    font-size: 200%;
+}
+
+main{
+    margin: -10px 0px 0px 10px;
 }
 
 a:link{
@@ -66,6 +70,9 @@ li{
 
 footer{
     font-size: 75%;
+    border-top-style: solid;
+    border-top-width: 2px;
+    background: linear-gradient(45deg, black, orange 75%, white), orange;
 }
 
 .flex-container{
