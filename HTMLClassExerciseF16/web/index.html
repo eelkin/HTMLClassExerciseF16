@@ -5,17 +5,26 @@
 	<meta charset="utf-8" />
 	<title>Halloween Store</title>
         <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/normalize.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
   <header>
-    <img src="images/pumpkin.gif" alt="pumpkin">
+    <img class = "pump" src="images/pumpkin.gif" alt="pumpkin">
     <h1 id = "headTitle">The Halloween Store</h1>
     <h3>For the little Goblin in all of us!</h3>
   </header>
+  <nav class="navigator">
+    <ul>
+      <li><a href="">Props</a></li>
+      <li><a href="">Costumes</a></li>
+      <li><a href="">Special Effects</a></li>
+      <li><a href="">Masks</a></li>
+    </ul>
+  </nav>
   <main>
     <article>
       <section class = "info">
-        <h2 id = "welcome">Welcome to my site. Please come in and say awhile!</h2>
+        <h2 id = "welcome">Welcome to my site.<br> Please come in and say awhile!</h2>
         <p>I started this website because Halloween has always been my favorite holiday.
         But during the last year, I started selling some of my favorite Halloween products,
         and they've been quite a hit.</p>
@@ -24,16 +33,10 @@
         And if you join my email list, I will keep you up-to-date on all things
         Halloween.</p>
       </section>
-      <section class="navigator">
-        <nav>
-          <h3>Product categories</h3>
-          <ul>
-            <li><a href="">Props</a></li>
-            <li><a href="">Costumes</a></li>
-            <li><a href="">Special Effects</a></li>
-            <li><a href="">Masks</a></li>
-          </ul>
-        </nav>
+      <section>
+        <h3>Product of the week</h3>
+        <img class = "cat" src="images/cat1.jpg" alt="cat">
+        <br><a href="products/cat.html">20" Deranged Cat</a>
       </section>
       <section class = "guarantee">
         <h3>My guarantee</h3>
@@ -44,7 +47,7 @@
   </main>
   <footer>
     <div class = "flex-container">
-      <p>&copy; 2016 Ben Murach</p>
+      <p class = "cr">&copy; 2016 Ben Murach</p>
     </div>
   </footer>
 </body>
