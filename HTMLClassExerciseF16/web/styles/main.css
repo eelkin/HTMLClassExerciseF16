@@ -1,108 +1,105 @@
-html{
-    background-image: url("../images/bats.gif");
-    background-repeat: repeat;
-}
-
-body {
-    font-family: Optima, Geneva, Arial, sans-serif;
-    width: 800px;
-    margin: auto;
-    background: white;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 5px 5px 5px black;
-}
-
-h3{
-    font-size: 150%;
-    margin: auto;
-}
-
-h4{
-    font-size: 125%;
-}
-
-.pump{
-    float: left;
-    margin: auto;
-    margin-left: 10px;
-}
-
-#headTitle{
-    font-size: 250%;
-    margin: auto;
-}
-
-header{
-    padding: 10px;
-    text-indent: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    background: linear-gradient(45deg, white, orange 75%, black), orange;
-}
-
-.navigator{
-    float: left;
-    width: 160px;
-    height: 500px;
-}
-
-
-#welcome{
-    font-size: 200%;
-    margin: auto;
-}
-
-#welcome::first-letter{
-    font-size: 200%;
+a:hover{
+  color: green;
 }
 
 a:link{
-    font-weight: bold;
-    color: orange;
+  color: orange;
+  font-weight: bold;
 }
 
 a:visited{
-    color: orange;
+  color: orange;
 }
 
-a:hover{
-    color: green;
+body {
+  background: white;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 5px 5px 5px black;
+  font-family: Optima, Geneva, Arial, sans-serif;
+  margin: auto;
+  width: 800px;
 }
 
+.cat{
+  margin: auto; 
+}
+
+.flex-container{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+footer{
+  background: linear-gradient(45deg, black, orange 75%, white), orange;
+  border-top-style: solid;
+  border-top-width: 2px;
+  font-size: 75%;
+  padding: 20px 0px 10px 0px;
+}
+
+h3{
+  font-size: 150%;
+  margin: auto;
+}
+
+h4{
+  font-size: 125%;
+}
+
+header{
+  background: linear-gradient(45deg, white, orange 75%, black), orange;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 10px;
+  text-indent: 50px;
+}
+
+#headTitle{
+  font-size: 250%;
+  margin: auto;
+}
+
+html{
+  background-image: url("../images/bats.gif");
+  background-repeat: repeat;
+}
 
 li{
   padding: 5px;  
 }
 
 main{
-    margin: 10px;  
+  margin: 10px;  
+}
+
+.navigator{
+  float: left;
+  height: 500px;
+  width: 160px;
 }
 
 p{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.cat{
-   margin: auto; 
+.pump{
+  float: left;
+  margin: auto;
+  margin-left: 10px;
 }
 
-footer{
-    padding: 20px 0px 10px 0px;
-    font-size: 75%;
-    border-top-style: solid;
-    border-top-width: 2px;
-    background: linear-gradient(45deg, black, orange 75%, white), orange;
+#welcome{
+  font-size: 200%;
+  margin: auto;
 }
 
-
-.flex-container{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-  
-    -webkit-flex-flow: row wrap;
-    justify-content: center;
+#welcome::first-letter{
+  font-size: 200%;
 }
