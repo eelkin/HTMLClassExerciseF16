@@ -1,3 +1,28 @@
+body {
+  background: white;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 5px 5px 5px black;
+  font-family: Optima, Geneva, Arial, sans-serif;
+  margin: auto;
+  width: 800px;
+}
+
+html{
+  background-image: url("../images/bats.gif");
+  background-repeat: repeat;
+}
+
+.navigator{
+  float: left;
+  height: 500px;
+  width: 160px;
+}
+
+li{
+  padding: 5px;  
+}
+
 a:hover{
   color: green;
 }
@@ -9,16 +34,6 @@ a:link{
 
 a:visited{
   color: orange;
-}
-
-body {
-  background: white;
-  border-style: solid;
-  border-color: black;
-  box-shadow: 5px 5px 5px black;
-  font-family: Optima, Geneva, Arial, sans-serif;
-  margin: auto;
-  width: 800px;
 }
 
 .cat{
@@ -36,14 +51,6 @@ body {
   justify-content: center;
 }
 
-footer{
-  background: linear-gradient(45deg, black, orange 75%, white), orange;
-  border-top-style: solid;
-  border-top-width: 2px;
-  font-size: 75%;
-  padding: 20px 0px 10px 0px;
-}
-
 h3{
   font-size: 150%;
   margin: auto;
@@ -51,6 +58,12 @@ h3{
 
 h4{
   font-size: 125%;
+}
+
+.pump{
+  float: left;
+  margin: auto;
+  margin-left: 10px;
 }
 
 header{
@@ -66,33 +79,12 @@ header{
   margin: auto;
 }
 
-html{
-  background-image: url("../images/bats.gif");
-  background-repeat: repeat;
-}
-
-li{
-  padding: 5px;  
-}
-
 main{
   margin: 10px;  
 }
 
-.navigator{
-  float: left;
-  height: 500px;
-  width: 160px;
-}
-
 p{
   margin-top: 10px;
-}
-
-.pump{
-  float: left;
-  margin: auto;
-  margin-left: 10px;
 }
 
 #welcome{
@@ -102,4 +94,12 @@ p{
 
 #welcome::first-letter{
   font-size: 200%;
+}
+
+footer{
+  background: linear-gradient(45deg, black, orange 75%, white), orange;
+  border-top-style: solid;
+  border-top-width: 2px;
+  font-size: 75%;
+  padding: 20px 0px 10px 0px;
 }
