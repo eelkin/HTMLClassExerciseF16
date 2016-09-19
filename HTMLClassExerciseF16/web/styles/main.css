@@ -4,7 +4,7 @@ body {
   border-color: black;
   box-shadow: 5px 5px 5px black;
   font-family: Optima, Geneva, Arial, sans-serif;
-  margin: auto;
+  margin: 0 auto;
   width: 800px;
 }
 
@@ -13,11 +13,13 @@ html{
   background-repeat: repeat;
 }
 
+
 .navigator{
   float: left;
   height: 500px;
   width: 160px;
 }
+
 
 li{
   padding: 5px;  
@@ -60,6 +62,7 @@ h4{
   font-size: 125%;
 }
 
+
 .pump{
   float: left;
   margin: auto;
@@ -79,8 +82,9 @@ header{
   margin: auto;
 }
 
+
 main{
-  margin: 10px;  
+  margin: auto;  
 }
 
 p{
