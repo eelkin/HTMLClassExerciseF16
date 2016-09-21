@@ -57,9 +57,10 @@ header{
 }
 
 main{
+  display: block;
   float: right;
   width: 640px;
-  margin: auto;  
+  margin: auto;
 }
 
 p{
@@ -70,6 +71,7 @@ footer{
   background: linear-gradient(45deg, black, orange 75%, white), orange;
   border-top-style: solid;
   border-top-width: 2px;
+  clear: both;
   font-size: 75%;
   padding: 20px 0px 10px 0px;
 }
