@@ -13,17 +13,8 @@ html{
   background-repeat: repeat;
 }
 
-
 nav{
-  float: left;
-  display: block;
-  height: 500px;
-  width: 160px;
-}
-
-
-li{
-  padding: 5px;  
+    float: left;
 }
 
 a:hover{
@@ -57,7 +48,7 @@ header{
 }
 
 main{
-  display: block;
+  display: inline-block;
   float: right;
   width: 640px;
   margin: auto;
@@ -80,6 +71,35 @@ footer{
   float: left;
   margin: auto;
   margin-left: 10px;
+}
+
+.topBar ul{
+    overflow: hidden;
+}
+
+.sideNavigator{
+  float: left;
+  width: 160px;
+}
+
+.sideNavigator td{
+  background-color: orange;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+}
+
+.sideNavigator a:link{
+  color: white;
+  font-weight: bold;
+}
+
+.sideNavigator a:hover{
+  color: green;
+}
+
+.sideNavigator a:visited{
+  color: white;
 }
 
 .cat{
