@@ -14,8 +14,9 @@ html{
 }
 
 
-.navigator{
+nav{
   float: left;
+  display: block;
   height: 500px;
   width: 160px;
 }
@@ -38,6 +39,47 @@ a:visited{
   color: orange;
 }
 
+h3{
+  font-size: 150%;
+  margin: auto;
+}
+
+h4{
+  font-size: 125%;
+}
+
+header{
+  background: linear-gradient(45deg, white, orange 75%, black), orange;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: 10px;
+  text-indent: 50px;
+}
+
+main{
+  float: right;
+  width: 640px;
+  margin: auto;  
+}
+
+p{
+  margin-top: 10px;
+}
+
+footer{
+  background: linear-gradient(45deg, black, orange 75%, white), orange;
+  border-top-style: solid;
+  border-top-width: 2px;
+  font-size: 75%;
+  padding: 20px 0px 10px 0px;
+}
+
+.pump{
+  float: left;
+  margin: auto;
+  margin-left: 10px;
+}
+
 .cat{
   margin: auto; 
 }
@@ -53,42 +95,9 @@ a:visited{
   justify-content: center;
 }
 
-h3{
-  font-size: 150%;
-  margin: auto;
-}
-
-h4{
-  font-size: 125%;
-}
-
-
-.pump{
-  float: left;
-  margin: auto;
-  margin-left: 10px;
-}
-
-header{
-  background: linear-gradient(45deg, white, orange 75%, black), orange;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  padding: 10px;
-  text-indent: 50px;
-}
-
 #headTitle{
   font-size: 250%;
   margin: auto;
-}
-
-
-main{
-  margin: auto;  
-}
-
-p{
-  margin-top: 10px;
 }
 
 #welcome{
@@ -98,12 +107,4 @@ p{
 
 #welcome::first-letter{
   font-size: 200%;
-}
-
-footer{
-  background: linear-gradient(45deg, black, orange 75%, white), orange;
-  border-top-style: solid;
-  border-top-width: 2px;
-  font-size: 75%;
-  padding: 20px 0px 10px 0px;
 }
