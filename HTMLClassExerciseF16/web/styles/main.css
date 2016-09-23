@@ -4,7 +4,7 @@ body {
   border-color: black;
   box-shadow: 5px 5px 5px black;
   font-family: Optima, Geneva, Arial, sans-serif;
-  margin: 0 auto;
+  margin: auto;
   width: 800px;
 }
 
@@ -13,21 +13,22 @@ html{
   background-repeat: repeat;
 }
 
+
 nav{
-    float: left;
+   
 }
 
-a:hover{
-  color: green;
+nav a{
+  text-decoration: none;
 }
 
-a:link{
+nav ul{
+  list-style-type: none;
+}
+
+a{
   color: orange;
   font-weight: bold;
-}
-
-a:visited{
-  color: orange;
 }
 
 h3{
@@ -47,11 +48,11 @@ header{
   text-indent: 50px;
 }
 
-main{
-  display: inline-block;
+main{ 
   float: right;
-  width: 640px;
-  margin: auto;
+  margin: 0 10px 0 0;
+  position: relative;
+  width: 630px;
 }
 
 p{
@@ -73,8 +74,33 @@ footer{
   margin-left: 10px;
 }
 
-.topBar ul{
-    overflow: hidden;
+.topBar{
+  background: black;
+  padding: 1px 0 1px 0;
+}
+
+.topBar li{
+  display: inline;
+  margin: 25px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.topBar a:link{
+  color: white;
+  font-weight: bold;
+}
+
+.topBar a:hover{
+  color: gray;
+}
+
+.topBar a:visited{
+  color: white;
+}
+
+.topBar #currentPage{
+  color: orange;
 }
 
 .sideNavigator{
@@ -82,24 +108,31 @@ footer{
   width: 160px;
 }
 
-.sideNavigator td{
-  background-color: orange;
-  border: 1px solid black;
-  color: white;
-  padding: 10px;
+.sideNavigator ul{
+  padding: 0 0 0 10px;
 }
 
+.sideNavigator li{
+  background: orange;
+  border: 2px solid black;
+  display: block;
+  margin: 5px 20px 5px 0;
+  padding: 10px 0 10px 5px;
+}
+
+.sideNavigator a{
+  color: black;
+}
 .sideNavigator a:link{
-  color: white;
   font-weight: bold;
 }
 
 .sideNavigator a:hover{
-  color: green;
+  color: white;
 }
 
 .sideNavigator a:visited{
-  color: white;
+  color: black;
 }
 
 .cat{
