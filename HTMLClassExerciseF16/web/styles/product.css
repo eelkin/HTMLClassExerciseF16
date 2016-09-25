@@ -13,22 +13,12 @@ html{
   background-repeat: repeat;
 }
 
-
-nav{
-   
-}
-
-nav a{
-  text-decoration: none;
-}
-
 nav ul{
   list-style-type: none;
 }
 
 a{
-  color: orange;
-  font-weight: bold;
+  color: black;
 }
 
 h3{
@@ -49,10 +39,8 @@ header{
 }
 
 main{ 
-  float: right;
-  margin: 0 0px 0 0;
+  margin: 0 200px 0 200px;
   position: relative;
-  width: 600px;
 }
 
 p{
@@ -77,6 +65,7 @@ footer{
 .topBar{
   background: black;
   padding: 1px 0 1px 0;
+  text-decoration: none;
 }
 
 .topBar li{
@@ -84,6 +73,10 @@ footer{
   margin: 25px;
   padding: 0 10px;
   text-align: center;
+}
+
+.topBar a{
+  text-decoration: none;
 }
 
 .topBar a:link{
@@ -99,44 +92,10 @@ footer{
   color: gray;
 }
 
-.topBar #currentPage{
-  color: orange;
-}
-
-.sideNavigator{
-  float: left;
-  width: 160px;
-}
-
-.sideNavigator ul{
-  padding: 0 0 0 10px;
-}
-
-.sideNavigator li{
-  background: orange;
-  border: 2px solid black;
-  display: block;
-  margin: 5px 0px 5px 0;
-  padding: 10px 0 10px 5px;
-}
-
-.sideNavigator a{
-  color: black;
-}
-.sideNavigator a:link{
-  font-weight: bold;
-}
-
-.sideNavigator a:hover{
-  color: white;
-}
-
-.sideNavigator a:visited{
-  color: black;
-}
-
 .cat{
-  margin: auto; 
+  float: left;
+  margin: auto;
+  padding: 0 10px;
 }
 
 .flex-container{
@@ -155,11 +114,83 @@ footer{
   margin: auto;
 }
 
-#welcome{
-  font-size: 200%;
-  margin: auto;
+#leftSidebar{
+  float: left;
+  
+  width: 160px;
 }
 
-#welcome::first-letter{
-  font-size: 200%;
+#leftSidebar ul{
+  padding: 0 0 0 10px;
 }
+
+#leftSidebar li{
+  background: orange;
+  border: 2px solid black;
+  display: block;
+  margin: 5px 0px 5px 0;
+  padding: 10px 0 10px 5px;
+}
+
+#leftSidebar a{
+  color: black;
+  text-decoration: none;
+}
+#leftSidebar a:link{
+  font-weight: bold;
+}
+
+#leftSidebar a:hover{
+  color: white;
+}
+
+#leftSidebar a:visited{
+  color: black;
+}
+
+#leftSidebar a:focus{
+  color: green;
+}
+
+#leftSidebar a:hover{
+   color: green;
+}
+
+#rightSidebar{
+    background: #F5DEB3;
+    float: right;
+    font-weight: normal;
+    padding: 0 0px;
+    width: 180px;
+}
+
+#rightSidebar h4{
+    font-size: 100%;
+    padding: 0 20px;
+}
+
+#rightSidebar img{
+  height: 50px;
+  width: 50px;
+}
+
+#rightSidebar li{
+  margin: 10px 0;
+}
+
+#rightSidebar a:link{
+   color: black
+}
+
+#rightSidebar a:visited{
+    color: black;
+}
+
+#rightSideBar a:focus{
+    color: green;
+}
+
+#rightSideBar a:hover{
+    color: green;
+}
+
