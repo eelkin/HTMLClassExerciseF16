@@ -1,104 +1,101 @@
 body {
   background: white;
-  border-style: solid;
-  border-color: black;
+  border: solid black;
   box-shadow: 5px 5px 5px black;
   font-family: Optima, Geneva, Arial, sans-serif;
   margin: auto;
   width: 800px;
 }
 
-html{
+html {
   background-image: url("../images/bats.gif");
   background-repeat: repeat;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
 }
 
-a{
+a {
   color: black;
 }
 
-h3{
+h3 {
   font-size: 150%;
   margin: auto;
 }
 
-h4{
+h4 {
   font-size: 125%;
 }
 
-header{
+header {
   background: linear-gradient(45deg, white, orange 75%, black), orange;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  border-bottom: 2px solid;
   padding: 10px;
   text-indent: 50px;
 }
 
-main{ 
+main { 
   margin: 0 200px 0 200px;
   position: relative;
 }
 
-p{
+p {
   margin-top: 10px;
 }
 
-footer{
+footer {
   background: linear-gradient(45deg, black, orange 75%, white), orange;
-  border-top-style: solid;
-  border-top-width: 2px;
+  border-top: 2px solid;
   clear: both;
   font-size: 75%;
-  padding: 20px 0px 10px 0px;
+  padding: 20px 0 10px 0;
 }
 
-.pump{
+.pump {
   float: left;
   margin: auto;
   margin-left: 10px;
 }
 
-.topBar{
+.top-bar {
   background: black;
   padding: 1px 0 1px 0;
   text-decoration: none;
 }
 
-.topBar li{
+.top-bar li {
   display: inline;
   margin: 25px;
   padding: 0 10px;
   text-align: center;
 }
 
-.topBar a{
+.top-bar a {
   text-decoration: none;
 }
 
-.topBar a:link{
+.top-bar a:link {
   color: white;
   font-weight: bold;
 }
 
-.topBar a:visited{
+.top-bar a:visited {
   color: white;
 }
 
-.topBar a:hover{
+.top-bar a:hover {
   color: gray;
 }
 
-.cat{
+.cat {
   float: left;
   margin: auto;
   padding: 0 10px;
 }
 
-.flex-container{
+.flex-container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -109,88 +106,86 @@ footer{
   justify-content: center;
 }
 
-#headTitle{
+#head-title {
   font-size: 250%;
   margin: auto;
 }
 
-#leftSidebar{
+#left-sidebar {
   float: left;
-  
   width: 160px;
 }
 
-#leftSidebar ul{
+#left-sidebar ul {
   padding: 0 0 0 10px;
 }
 
-#leftSidebar li{
+#left-sidebar li {
   background: orange;
   border: 2px solid black;
   display: block;
-  margin: 5px 0px 5px 0;
+  margin: 5px 0 5px 0;
   padding: 10px 0 10px 5px;
 }
 
-#leftSidebar a{
+#left-sidebar a {
   color: black;
   text-decoration: none;
 }
-#leftSidebar a:link{
+#left-sidebar a:link {
   font-weight: bold;
 }
 
-#leftSidebar a:hover{
+#left-sidebar a:hover {
   color: white;
 }
 
-#leftSidebar a:visited{
+#left-sidebar a:visited {
   color: black;
 }
 
-#leftSidebar a:focus{
+#left-sidebar a:focus {
   color: green;
 }
 
-#leftSidebar a:hover{
+#leftSidebar a:hover {
    color: green;
 }
 
-#rightSidebar{
-    background: #F5DEB3;
-    float: right;
-    font-weight: normal;
-    padding: 0 0px;
-    width: 180px;
+#right-sidebar {
+  background: #F5DEB3;
+  float: right;
+  font-weight: normal;
+  width: 180px;
 }
 
-#rightSidebar h4{
-    font-size: 100%;
-    padding: 0 20px;
+#right-sidebar h4 {
+  font-size: 100%;
+  padding: 0 20px;
 }
 
-#rightSidebar img{
+#right-sidebar img {
   height: 50px;
   width: 50px;
 }
 
-#rightSidebar li{
+#right-sidebar li {
   margin: 10px 0;
 }
 
-#rightSidebar a:link{
-   color: black
+#right-sidebar a:link {
+  color: black
 }
 
-#rightSidebar a:visited{
-    color: black;
+#right-sidebar a:visited {
+  color: black;
 }
 
-#rightSideBar a:focus{
-    color: green;
+#right-sideBar a:focus {
+  color: green;
 }
 
-#rightSideBar a:hover{
-    color: green;
+#right-sideBar a:hover {
+  color: green;
 }
 

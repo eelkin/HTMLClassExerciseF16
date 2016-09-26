@@ -1,145 +1,149 @@
 body {
   background: white;
-  border-style: solid;
-  border-color: black;
+  border: solid black;
   box-shadow: 5px 5px 5px black;
   font-family: Optima, Geneva, Arial, sans-serif;
   margin: auto;
   width: 800px;
 }
 
-html{
+html {
   background-image: url("../images/bats.gif");
   background-repeat: repeat;
 }
 
-
-nav{
-   
+a {
+  color: black;
 }
 
-nav a{
+nav a {
   text-decoration: none;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
 }
 
-a{
-  color: orange;
-  font-weight: bold;
-}
-
-h3{
+h3 {
   font-size: 150%;
   margin: auto;
 }
 
-h4{
-  font-size: 125%;
-}
-
-header{
+header {
   background: linear-gradient(45deg, white, orange 75%, black), orange;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  border-bottom: 2px solid;
   padding: 10px;
   text-indent: 50px;
 }
 
-main{ 
-  float: right;
-  margin: 0 0px 0 0;
+main {
+  margin: 10px 0 25px 150px;
   position: relative;
-  width: 600px;
 }
 
-p{
-  margin-top: 10px;
+figure {
+  width: 500px;  
 }
 
-footer{
+figcaption {
+  display: block;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;  
+  width: 500px;
+}
+
+thead {
+  text-align: left; 
+}
+
+thead th:last-child, 
+tbody tr td:last-child {
+  background: #f5deb3;
+  text-align: right;
+  width: 75px;
+}
+
+tbody th {
+  text-align: left;
+  vertical-align: top;
+}
+
+footer {
   background: linear-gradient(45deg, black, orange 75%, white), orange;
-  border-top-style: solid;
-  border-top-width: 2px;
+  border-top: 2px solid;
   clear: both;
   font-size: 75%;
   padding: 20px 0px 10px 0px;
 }
 
-.pump{
+.pump {
   float: left;
-  margin: auto;
-  margin-left: 10px;
+  margin: auto auto auto 10px;
 }
 
-.topBar{
+.top-bar {
   background: black;
   padding: 1px 0 1px 0;
 }
 
-.topBar li{
+.top-bar li {
   display: inline;
   margin: 25px;
   padding: 0 10px;
   text-align: center;
 }
 
-.topBar a:link{
+.top-bar a:link {
   color: white;
   font-weight: bold;
 }
 
-.topBar a:visited{
+.top-bar a:visited {
   color: white;
 }
 
-.topBar a:hover{
+.top-bar a:hover {
   color: gray;
 }
 
-.topBar #currentPage{
-  color: orange;
-}
-
-.sideNavigator{
+.side-navigator {
   float: left;
   width: 160px;
 }
 
-.sideNavigator ul{
+.side-navigator ul {
   padding: 0 0 0 10px;
 }
 
-.sideNavigator li{
+.side-navigator li {
   background: orange;
   border: 2px solid black;
   display: block;
-  margin: 5px 0px 5px 0;
+  margin: 5px 0 5px 0;
   padding: 10px 0 10px 5px;
 }
 
-.sideNavigator a{
+.side-navigator a {
   color: black;
 }
-.sideNavigator a:link{
+.side-navigator a:link {
   font-weight: bold;
 }
 
-.sideNavigator a:hover{
+.side-navigator a:hover {
   color: white;
 }
 
-.sideNavigator a:visited{
+.side-navigator a:visited {
   color: black;
 }
 
-.cat{
-  margin: auto; 
-}
-
-.flex-container{
+.flex-container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -150,16 +154,11 @@ footer{
   justify-content: center;
 }
 
-#headTitle{
+#head-title {
   font-size: 250%;
   margin: auto;
 }
 
-#welcome{
-  font-size: 200%;
-  margin: auto;
-}
-
-#welcome::first-letter{
-  font-size: 200%;
+#current-page {
+  color: orange;
 }
