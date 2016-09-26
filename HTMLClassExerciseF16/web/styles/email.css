@@ -1,0 +1,142 @@
+body {
+  background: white;
+  border: solid black;
+  box-shadow: 5px 5px 5px black;
+  font-family: Optima, Geneva, Arial, sans-serif;
+  margin: auto;
+  width: 800px;
+}
+
+html {
+  background-image: url("../images/bats.gif");
+  background-repeat: repeat;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 150%;
+  margin: auto;
+}
+
+header{
+  background: linear-gradient(45deg, white, orange 75%, black), orange;
+  border-bottom: 2px solid;
+  padding: 10px;
+  text-indent: 50px;
+}
+
+main { 
+  float: right;
+  position: relative;
+  width: 600px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+footer {
+  background: linear-gradient(45deg, black, orange 75%, white), orange;
+  border-top: 2px solid;
+  clear: both;
+  font-size: 75%;
+  padding: 20px 0 10px 0px;
+}
+
+.pump {
+  float: left;
+  margin: auto auto auto 10px;
+}
+
+.top-bar {
+  background: black;
+  padding: 1px 0 1px 0;
+}
+
+.top-bar li {
+  display: inline;
+  margin: 25px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.top-bar a:link {
+  color: white;
+  font-weight: bold;
+}
+
+.top-bar a:visited {
+  color: white;
+}
+
+.top-bar a:hover {
+  color: gray;
+}
+
+.side-navigator {
+  float: left;
+  width: 160px;
+}
+
+.side-navigator ul {
+  padding: 0 0 0 10px;
+}
+
+.side-navigator li {
+  background: orange;
+  border: 2px solid black;
+  display: block;
+  margin: 5px 0 5px 0;
+  padding: 10px 0 10px 5px;
+}
+
+.side-navigator a {
+  color: black;
+}
+.side-navigator a:link {
+  font-weight: bold;
+}
+
+.side-navigator a:hover {
+  color: white;
+}
+
+.side-navigator a:visited {
+  color: black;
+}
+
+.cat {
+  margin: auto; 
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+#head-title {
+  font-size: 250%;
+  margin: auto;
+}
+
+#current-page {
+  color: orange;
+}

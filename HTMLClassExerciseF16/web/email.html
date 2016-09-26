@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Halloween Store</title>
+  <link href="styles/normalize.css" rel="stylesheet" type="text/css"/>
+  <link href="styles/email.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header>
+    <img class = "pump" src="images/pumpkin.gif" alt="pumpkin">
+    <h1 id = "head-title">The Halloween Store</h1>
+    <h3>For the little Goblin in all of us!</h3>
+  </header>
+  <nav>
+    <div class="top-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="slides/products/index.html">Product List</a></li>
+        <li><a href="personal.html">Personal</a></li>
+        <li><a href="decoratingideas.html">Decorating Ideas</a></li>
+        <li><a id="current-page" href="email.html">Join E-mail</a></li>
+      </ul>
+    </div>
+    <div class="side-navigator">
+      <ul>
+        <li><a href="props.html">Props</a></li>
+        <li><a href="costumes.html">Costumes</a></li>
+        <li><a href="specialeffects.html">Special Effects</a></li>
+        <li><a href="masks.html">Masks</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <article>
+      <section>
+        <h2>Please enter the following information</h2>
+        <form>
+          <p><label>First Name:</label><input type="text" required></p>
+          <p><label>Last Name:</label><input type="text" required></p>
+          <p><label>Email:</label><input type="email" required></p>
+          <p><label>ZIP Code:</label><input type="text" pattern="^[0-9]{5}$" required></p>
+          <p><input formaction="subscribe.html" type="submit" value="Subscribe"></p>
+        </form>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <div class = "flex-container">
+      <p class = "cr">&copy; 2016 Ben Murach</p>
+    </div>
+  </footer>
+</body>
+</html>
