@@ -86,7 +86,7 @@ footer {
 }
 
 .top-bar a:hover {
-  color: gray;
+  background: gray;
 }
 
 .side-navigator {
