@@ -16,6 +16,9 @@ nav ul {
   list-style-type: none;
 }
 
+nav a {
+  text-decoration: none;
+}
 a {
   color: black;
 }
@@ -61,19 +64,19 @@ footer {
 
 .top-bar {
   background: black;
-  padding: 1px 0 1px 0;
-  text-decoration: none;
+  padding: auto;
 }
 
-.top-bar li {
+.top-bar ul {
+  margin: 0;
+  padding: 10px;
+}
+
+.top-bar li{
   display: inline;
   margin: 25px;
-  padding: 0 10px;
+  padding: 10px 10px;
   text-align: center;
-}
-
-.top-bar a {
-  text-decoration: none;
 }
 
 .top-bar a:link {
@@ -86,7 +89,7 @@ footer {
 }
 
 .top-bar a:hover {
-  color: gray;
+  background: gray;
 }
 
 .cat {
