@@ -1,0 +1,211 @@
+body {
+  background: white;
+  border: solid black;
+  box-shadow: 5px 5px 5px black;
+  font-family: Optima, Geneva, Arial, sans-serif;
+  font-size: 100%;
+  margin: auto;
+  /*
+  width: 800px;
+  */
+  
+  max-width: 960px;
+  width: 95%;
+}
+
+html {
+  background-image: url("../images/bats.gif");
+  background-repeat: repeat;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 150%;
+  margin: auto;
+}
+
+h4{
+  font-size: 125%;
+}
+
+header{
+  background: linear-gradient(45deg, white, orange 75%, black), orange;
+  border-bottom: 2px solid;
+  /*
+  padding: 10
+  text-indent: 50
+  */
+  padding: 1.25%;
+  text-indent: 6.25%;
+}
+
+main { 
+  float: right;
+  margin: 0 2.5% 0 0;
+  position: relative;
+  /*
+  width: 800;
+  */
+  width: 75%;
+}
+
+p {
+  margin-top: 1.25%;
+}
+
+footer {
+  background: linear-gradient(45deg, black, orange 75%, white), orange;
+  border-top: 2px solid;
+  clear: both;
+  font-size: 75%;
+  /*
+  padding: 20px 0 10px 0px;
+  */
+  padding: 2.5% 0 1.25% 0;
+}
+
+.pump {
+  float: left;
+  /*
+  margin: auto auto auto 10px;
+  */
+  margin: 0 0 1.25% 1.25%;
+  min-width: 40px;
+  width: 10%;
+}
+
+.top-bar {
+  background: black;
+}
+
+.top-bar ul {
+  margin: 0;
+  /*
+  padding: 10px;
+  */
+  padding: 1.25%;
+}
+
+.top-bar li{
+  display: inline;
+  /*
+  margin: 25px;
+  padding: 10px 10px;
+  */
+  margin: 3.125%;
+  padding: 1.25% 1.25%;
+  text-align: center;
+}
+
+.top-bar a:link {
+  color: white;
+  font-weight: bold;
+}
+
+.top-bar a:visited {
+  color: white;
+}
+
+.top-bar a:hover {
+  background: gray;
+}
+
+.side-navigator {
+  float: left;
+  /*
+  width: 160px;
+  */
+  width: 20%;
+}
+
+.side-navigator ul {
+  /*
+  padding: 0 0 0 10px;
+  */
+  padding: 0 0 0 1.25%;
+}
+
+.side-navigator li {
+  background: orange;
+  border: 2px solid black;
+  display: block;
+  /*
+  margin: 5px 0 5px 0;
+  padding: 10px 0 10px 5px;
+  */
+  margin: 0.625% 0 0.625% 0;
+  padding: 1.25% 0 1.25% 0;
+}
+
+.side-navigator a {
+  color: black;
+}
+.side-navigator a:link {
+  font-weight: bold;
+}
+
+.side-navigator a:hover {
+  color: white;
+}
+
+.side-navigator a:visited {
+  color: black;
+}
+
+.cat {
+  margin: auto;
+  width: 22.5%; 
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+#head-title {
+  font-size: 250%;
+  margin: auto;
+}
+
+#current-page {
+  color: orange;
+}
+
+#welcome {
+  font-size: 200%;
+  margin: auto;
+}
+
+#welcome::first-letter {
+  font-size: 200%;
+}
+
+@media only screen and (max-width: 800px){
+
+    html {
+      background-image: none;   
+    }
+    
+    body {
+      box-shadow: none;
+      font-size: 90%;
+    }
+}
