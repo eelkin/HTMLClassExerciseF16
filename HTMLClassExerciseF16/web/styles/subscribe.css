@@ -13,7 +13,8 @@ html {
 }
 
 a {
-  color: black;
+  color: orange;
+  font-weight: bold;
 }
 
 nav a {
@@ -24,53 +25,21 @@ nav ul {
   list-style-type: none;
 }
 
-h3 {
+h2{
   font-size: 150%;
-  margin: auto;
 }
 
-header {
+header{
   background: linear-gradient(45deg, white, orange 75%, black), orange;
   border-bottom: 2px solid;
   padding: 10px;
   text-indent: 50px;
 }
 
-main {
-  margin: 10px 0 25px 150px;
+main { 
+  float: right;
   position: relative;
-}
-
-figure {
-  width: 500px;  
-}
-
-figcaption {
-  display: block;
-  font-size: 150%;
-  font-weight: bold;
-  text-align: center;
-}
-
-table {
-  border-collapse: collapse;  
-  width: 500px;
-}
-
-thead {
-  text-align: left; 
-}
-
-thead th:last-child, 
-tbody tr td:last-child {
-  background: #f5deb3;
-  text-align: right;
-  width: 75px;
-}
-
-tbody th {
-  text-align: left;
-  vertical-align: top;
+  width: 620px;
 }
 
 footer {
@@ -78,7 +47,7 @@ footer {
   border-top: 2px solid;
   clear: both;
   font-size: 75%;
-  padding: 20px 0px 10px 0px;
+  padding: 20px 0 10px 0px;
 }
 
 .pump {
@@ -161,8 +130,4 @@ footer {
 #head-title {
   font-size: 250%;
   margin: auto;
-}
-
-#current-page {
-  color: orange;
 }

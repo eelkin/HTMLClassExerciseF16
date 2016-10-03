@@ -25,7 +25,7 @@ nav ul {
   list-style-type: none;
 }
 
-h3 {
+h2 {
   font-size: 150%;
   margin: auto;
 }
@@ -40,20 +40,22 @@ header{
 main { 
   float: right;
   position: relative;
-  width: 600px;
+  width: 620px;
 }
 
 main div {
-    clear: both;
-    float: left;
-    margin: 0 0 5px 0;
+  clear: both;
+  float: left;
+  margin: 0 0 5px 0;
 }
-
 
 label {
   padding: 0 30px 0 0;
-  text-align: right;
   width: 100px;
+}
+
+input {
+  width: 400px;
 }
 
 footer {
@@ -71,7 +73,6 @@ footer {
 
 .top-bar {
   background: black;
-  padding: auto;
 }
 
 .top-bar ul {
@@ -131,8 +132,10 @@ footer {
   color: black;
 }
 
-.cat {
-  margin: auto; 
+
+.labels{
+  width: 150px;
+  text-align: right;
 }
 
 .flex-container {
@@ -153,4 +156,10 @@ footer {
 
 #current-page {
   color: orange;
+}
+
+#subscribe{
+  background: orange;
+  border: 1px solid black;
+  width: 125px;
 }
