@@ -36,10 +36,6 @@ h3 {
   margin: auto;
 }
 
-h4{
-  font-size: 125%;
-}
-
 header{
   background: linear-gradient(45deg, white, orange 75%, black), orange;
   border-bottom: 2px solid;
@@ -145,7 +141,7 @@ footer {
   margin: 5px 0 5px 0;
   padding: 10px 0 10px 5px;
   */
-  margin: 0.625% 0 0.625% 0;
+  margin: 0.625% 0 1.25% 1.25%;
   padding: 1.25% 0 1.25% 0;
 }
 
@@ -198,8 +194,11 @@ footer {
   font-size: 200%;
 }
 
-@media only screen and (max-width: 800px){
+#mobile-menu {
+    display: none;
+}
 
+@media only screen and (max-width: 800px) {
     html {
       background-image: none;   
     }
@@ -207,5 +206,57 @@ footer {
     body {
       box-shadow: none;
       font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    main {
+        float: none;
+        margin: auto;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    .side-navigator {
+        float: none;
+        margin: auto;
+    }
+    
+    .top-bar {
+        display: none;
+    }
+    
+    .slicknav_menu {
+        background-color: black;
+        text-align: right;
+    }
+    
+    .slicknav_menu li {
+        text-align: left;
+    }
+    
+    #mobile-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    
+    #head-title {
+        font-size: 150%;
+    }
+    
+    header h3 {
+        font-size: 100%
+    }
+    
+    #welcome{
+        font-size: 125%;
+    }
+    
+    h3:first-child {
+        font-size: 110%;
     }
 }
