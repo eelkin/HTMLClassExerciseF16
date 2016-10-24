@@ -28,10 +28,8 @@ public class HalloweenServlet extends HttpServlet {
         if(action == null) {
             action = "join";
         }
-        
         if (action.equals("join")) {
             url = "/index.html";
-            getServletContext().getRequestDispatcher(url).forward(request, response);
         } 
         else if (action.equals("subscribe")) {
             // get parameters from the request
@@ -44,6 +42,10 @@ public class HalloweenServlet extends HttpServlet {
             System.out.println(lastName);
             System.out.println(email);
             System.out.println(zipCode);
+            log(firstName);
+            log(lastName);
+            log(zipCode);
+            log(email);
             
             url = "/subscribe.html";
         }
